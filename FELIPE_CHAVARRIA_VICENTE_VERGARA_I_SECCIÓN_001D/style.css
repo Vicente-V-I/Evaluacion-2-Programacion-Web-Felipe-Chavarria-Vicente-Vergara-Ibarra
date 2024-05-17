@@ -1,0 +1,103 @@
+.btn btn-primary {
+    margin-right: auto;
+}
+
+.carousel-imagen {
+    max-width: 100%;
+    height: 315px;
+    width: 2080px;
+
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: gray;
+}
+
+.logocont {
+    text-align: center;
+    display: flex; /*CUANDO SE APLICA DISPLAY: FLEX; A UN CONTENEDOR, PUEDES MANIPULAR FÁCILMENTE CÓMO SE ALINEAN Y SE DISTRIBUYEN LOS ELEMENTOS SECUNDARIOS DENTRO DE ESE.*/
+    justify-content: center; /*LOS ELEMENTOS SECUNDARIOS SE ALINEARÁN HORIZONTALMENTE DE MANERA QUE ESTÉN CENTRADOS DENTRO DEL CONTENEDOR FLEXIBLE A LO LARGO DEL EJE PRINCIPAL*/
+    align-items: center; 
+    margin-top: 50px;
+}
+
+.col-md-3 {
+    width: 200px;
+    height: 200px; 
+    display: flex; /* HACE QUE EL CONTENIDO DE LA CARD SE ALINEE EN UNA FILA */
+    justify-content: center; /* CENTRAR HORIZONTALMENTE DENTRO DE LA CARD */
+    align-items: center; /* CENTRAR VERTICALMENTE DENTRO DE LA CARD*/
+}
+
+.navbar-brand {
+    font-family: "Nombre de la fuente", sans-serif;
+    
+}
+
+.card-title {
+    font-family: sans-serif;
+}
+
+.card-text {
+    font-family: sans-serif;
+}
+
+.contencaru {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.titucorr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: x-large; /*SE UTILIZA PARA ESTABLECER EL TAMAÑO DE FUENTE DE UN ELEMENTO EN UN TAMAÑO GRANDE, ESPECÍFICAMENTE UN TAMAÑO MÁS GRANDE QUE EL TAMAÑO PREDETERMINADO DEL NAVEGADOR.*/
+}
+
+.tituband {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center; 
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.tituiden {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.txtquien {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.txtbienvenidos {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.txtcontacto {
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.txtdatoscontacto {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    justify-content: center;
+    list-style-position: inside; /*LOS MARCADORES O VIÑETAS DE LA LISTA SE COLOCAN DENTRO DEL ÁREA DEL CONTENIDO DEL ELEMENTO CONTENEDOR, LO QUE SIGNIFICA QUE EL TEXTO DE LA LISTA SE AJUSTA ALREDEDOR DE LOS MARCADORES O VIÑETAS.*/
+}
